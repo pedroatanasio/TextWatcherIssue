@@ -1,6 +1,6 @@
 This repository contains an app demonstrating a `IndexOutOfBoundsException` when using multiple `TextWatcher`s added to the same `TextView` and one removes itself. 
 
-This the internal source code for the `sendOnTextChanged` method present in the `TextView` class:
+This is the internal source code for the `sendOnTextChanged` method present in the `TextView` class:
 
 ```java
 void sendOnTextChanged(CharSequence text, int start, int before, int after) {
